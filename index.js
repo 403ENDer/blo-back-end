@@ -10,7 +10,6 @@ const authRoute = require("./routes/auth");
 const userRoute = require("./routes/users");
 const postRoute = require("./routes/posts");
 const commentRoute = require("./routes/comments");
-
 //database
 const connectDB = async () => {
   try {
